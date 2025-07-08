@@ -17,6 +17,7 @@ A modern, responsive landing page for your resin and craft supplies business in 
 - **Smooth Scrolling**: Seamless navigation between sections
 - **Contact Form**: Functional contact form with validation
 - **WhatsApp Integration**: Direct WhatsApp contact button
+- **Customer Testimonials**: AI-generated reviews with photos and ratings
 - **Scroll-to-Top**: Easy navigation back to top
 - **Interactive Elements**: Hover effects and clickable product categories
 
@@ -26,8 +27,9 @@ A modern, responsive landing page for your resin and craft supplies business in 
 3. **About Section**: Why choose your business
 4. **Products Section**: Product categories with images
 5. **Services Section**: Your business services
-6. **Contact Section**: Contact form and business details
-7. **Footer**: Additional links and information
+6. **Testimonials Section**: Customer reviews and ratings
+7. **Contact Section**: Contact form and business details
+8. **Footer**: Additional links and information
 
 ## Setup Instructions
 

@@ -80,7 +80,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe elements for animation
-document.querySelectorAll('.about-card, .service-card, .product-category').forEach(el => {
+document.querySelectorAll('.about-card, .service-card, .product-category, .testimonial-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -253,7 +253,7 @@ window.addEventListener('load', () => {
 
 // Initialize AOS (Animate On Scroll) alternative
 function initScrollAnimations() {
-    const elements = document.querySelectorAll('.section-title, .section-subtitle, .about-card, .service-card');
+    const elements = document.querySelectorAll('.section-title, .section-subtitle, .about-card, .service-card, .testimonial-card');
     
     const animateOnScroll = () => {
         elements.forEach(element => {
@@ -269,14 +269,14 @@ function initScrollAnimations() {
     // Add CSS for animations
     const style = document.createElement('style');
     style.textContent = `
-        .section-title, .section-subtitle, .about-card, .service-card {
+        .section-title, .section-subtitle, .about-card, .service-card, .testimonial-card {
             opacity: 0;
             transform: translateY(30px);
             transition: opacity 0.6s ease, transform 0.6s ease;
         }
         
         .section-title.animate, .section-subtitle.animate, 
-        .about-card.animate, .service-card.animate {
+        .about-card.animate, .service-card.animate, .testimonial-card.animate {
             opacity: 1;
             transform: translateY(0);
         }
