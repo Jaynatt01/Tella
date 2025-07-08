@@ -333,7 +333,7 @@ function initContactPrompt() {
     
     contactPrompt.addEventListener('click', () => {
         // Replace with actual WhatsApp number
-        const whatsappNumber = '2348000000000'; // Update with actual number
+        const whatsappNumber = '2349063002508'; // Updated with actual number
         const message = 'Hi! I\'m interested in your resin and craft supplies.';
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
