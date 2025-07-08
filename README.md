@@ -55,7 +55,17 @@ finished-products.jpg - Ready-made items category (400x350px)
   - Safety Gear: Use the respirator mask image
   - Finished Products: Use the candle holders and vases
 
-### 2. Contact Information Update
+### 2. Bumpa Store Integration
+Update your Bumpa store link in `index.html`. Replace all instances of:
+```html
+href="https://your-bumpa-store-link.com"
+```
+With your actual Bumpa store URL, for example:
+```html
+href="https://resinandcraftsupplies.bumpa.shop"
+```
+
+### 3. Contact Information Update
 Update the following in `index.html`:
 
 ```html
@@ -66,7 +76,7 @@ Update the following in `index.html`:
 const whatsappNumber = '2348000000000'; // Replace with actual number
 ```
 
-### 3. Social Media Links
+### 4. Social Media Links
 Update social media links in the footer and contact section:
 
 ```html
@@ -76,7 +86,7 @@ Update social media links in the footer and contact section:
 <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
 ```
 
-### 4. Email Configuration
+### 5. Email Configuration
 To make the contact form functional, integrate with:
 - **EmailJS**: For client-side email sending
 - **Formspree**: Simple form handling service

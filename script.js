@@ -175,23 +175,13 @@ function showNotification(message, type = 'info') {
     });
 }
 
-// Product category interactions
-document.querySelectorAll('.product-category').forEach(category => {
-    category.addEventListener('click', function() {
-        const categoryName = this.querySelector('h3').textContent;
-        showNotification(`Explore ${categoryName} - Feature coming soon!`, 'info');
-    });
-});
+// Product category interactions - now handled by Bumpa links
+// Categories now link directly to your Bumpa store
 
 // Hero buttons functionality
 document.querySelectorAll('.hero-buttons .btn').forEach(btn => {
     btn.addEventListener('click', function() {
-        if (this.textContent.includes('Shop Now')) {
-            // Scroll to products section
-            document.querySelector('#products').scrollIntoView({
-                behavior: 'smooth'
-            });
-        } else if (this.textContent.includes('View Catalog')) {
+        if (this.textContent.includes('View Catalog')) {
             showNotification('Catalog download feature coming soon!', 'info');
         }
     });
