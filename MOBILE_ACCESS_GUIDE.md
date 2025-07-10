@@ -47,10 +47,11 @@
 
 ## 🚀 Quick Actions for Mobile Users
 
-1. **📞 Call Now** - Tap the "Call Now" button in hero section
-2. **💬 WhatsApp** - Use the floating green WhatsApp button (bottom right)
-3. **📱 Social Media** - Tap TikTok/Instagram icons in footer
-4. **📧 Contact Form** - Scroll to contact section for inquiries
+1. **�️ Shop Now** - Tap the main "Shop Now" button or red "SHOP" in navigation
+2. **�📞 Call Now** - Tap the "Call Now" button in hero section
+3. **💬 WhatsApp** - Use the floating green WhatsApp button (bottom right)
+4. **📱 Social Media** - Tap TikTok/Instagram icons in footer
+5. **📧 Contact Form** - Scroll to contact section for pre-orders/inquiries
 
 ---
 
@@ -68,6 +69,7 @@
 
 | Method | Link | Description |
 |--------|------|-------------|
+| **Shop** | `https://resinandcraftsupplies.bumpa.shop` | Browse & buy products |
 | **Call** | `tel:+2349063002508` | Direct phone calling |
 | **WhatsApp** | `https://wa.me/2349063002508` | Instant messaging |
 | **TikTok** | `@resinandcraftsupplies` | Follow for updates |
